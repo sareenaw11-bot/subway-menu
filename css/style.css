@@ -252,3 +252,11 @@ a{color:inherit;}
 
 /* Card photos: official Subway customizer photos, hosted in images/. */
 .item-image{width:100%; aspect-ratio:4 / 3; object-fit:cover; border-radius:10px; display:block; background:var(--paper-2);}
+
+/* Coupons page: real tables and code copy buttons. */
+.deal-table{width:100%; border-collapse:collapse; margin:16px 0 8px; font-size:14px; line-height:1.5;}
+.deal-table th,.deal-table td{border:1px solid var(--line-strong); padding:10px 12px; text-align:left; vertical-align:top;}
+.deal-table th{background:var(--paper-2); font-family:var(--font-display);}
+.deal-table td b{font-family:var(--font-display);}
+.copy-btn{background:var(--green); color:#fff; border:none; border-radius:999px; padding:7px 14px; font-weight:600; font-size:12.5px; cursor:pointer; white-space:nowrap;}
+.copy-btn:hover{background:var(--green-dim);}
