@@ -141,6 +141,8 @@ a{color:inherit;}
 @media(min-width:640px){.tool-card{flex-direction:row; align-items:center; justify-content:space-between; padding:30px 34px;}}
 .tool-card::after{content:''; position:absolute; right:-40px; top:-40px; width:180px; height:180px; border-radius:50%; background:rgba(255,255,255,0.06); pointer-events:none;}
 .tool-card-text h3{font-size:20px; margin-bottom:6px; position:relative;}
+.tool-card-title{font-size:20px; font-weight:700; margin:0 0 6px; position:relative;}
+h3.cat-title{font-size:20px; margin:0;}
 .tool-card-text p{font-size:14px; line-height:1.5; opacity:0.88; max-width:42ch; margin:0; position:relative;}
 .tool-card .btn-primary{background:#fff; color:var(--green-dim); border-color:#fff; flex-shrink:0; position:relative; z-index:1;}
 .tool-card .btn-primary:hover{background:var(--paper-2);}
